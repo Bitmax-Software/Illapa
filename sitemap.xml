@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Página principal -->
+    <url>
+        <loc>https://illapagroup.com.pe/index.html</loc>
+        <lastmod>2024-07-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- CSS -->
+    <url>
+        <loc>https://illapagroup.com.pe/main.css</loc>
+        <lastmod>2024-07-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Carpeta img -->
+    <url>
+        <loc>https://illapagroup.com.pe/img/</loc>
+        <lastmod>2024-07-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Carpeta php -->
+    <url>
+        <loc>https://illapagroup.com.pe/php/contacto.php</loc>
+        <lastmod>2024-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+</urlset>
