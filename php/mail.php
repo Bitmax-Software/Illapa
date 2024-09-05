@@ -17,18 +17,18 @@ $mail = new PHPMailer(true);
 try {
     // Configuración del servidor SMTP
     $mail->isSMTP();
-    $mail->Host = 'jyvrepresentaciones.com';  // Coloca el host SMTP proporcionado por tu proveedor de correo
+    $mail->Host = 'localhost';  // Coloca el host SMTP proporcionado por tu proveedor de correo
     $mail->SMTPAuth = true;
-    $mail->Username = 'web@jyvrepresentaciones.com'; // Tu dirección de correo electrónico SMTP
-    $mail->Password = '910Ze#1Toi.'; // Tu contraseña de correo electrónico SMTP
-    $mail->SMTPSecure = 'ssl'; // Opción: tls o ssl, dependiendo de tu servidor SMTP
-    $mail->Port = 465; // Puerto SMTP
+    $mail->Username = 'web@illapagroup.com.pe'; // Tu dirección de correo electrónico SMTP
+    $mail->Password = '*2RpAo^424hhOO'; // Tu contraseña de correo electrónico SMTP
+    $mail->SMTPSecure = 'none'; // Opción: tls o ssl, dependiendo de tu servidor SMTP
+    $mail->Port = 25; // Puerto SMTP
 
     // Destinatario y remitente
-    $from_email = "web@jyvrepresentaciones.com";
-    $to_email = "rodrigolaracamarena@gmail.com";
+    $from_email = "web@illapagroup.com.pe";
+    $to_email = "administration@illapagroup.com.pe";
     $data = json_decode(file_get_contents('php://input'), true);
-    $mail->setFrom($from_email, 'JYV Representaciones'); // Remitente
+    $mail->setFrom($from_email, 'Illapa'); // Remitente
     $mail->addAddress($to_email); // Destinatario
     $mail->isHTML(true); // Formato HTML
 
